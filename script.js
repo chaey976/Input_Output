@@ -133,33 +133,8 @@ document.getElementById("translate").addEventListener("click", function(){
 	}
 });
 
-// function showImage() {
-//     var image = document.querySelector("#codechart");
-//     image.style["display"] = "block";
-// }
 
-//     var info = document.querySelector("#info");
-//     info.addEventListener("click", showImage, false);
-//     info.classList.toggle("showImage");
-
-// function showImage() {
-//     var image = document.getElementById("codechart");
-//     if (image.style.display === "none") {
-//         image.style.display = "block";
-//     } else {
-//         image.style.display = "none";
-//     }
-// }
-
-// function toggleContent() {
-//     // Get the DOM reference
-//     var contentId = document.getElementById("chart");
-//     // Toggle 
-//     contentId.style.display == "block" ? contentId.style.display = "none" : 
-//   contentId.style.display = "block"; 
-//   }
-
-var button = document.getElementById('info'); // Assumes element with id='button'
+var button = document.getElementById('info'); 
 
 button.onclick = function() {
     var div = document.getElementById('codechart');
